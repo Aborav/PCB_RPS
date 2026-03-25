@@ -2538,6 +2538,12 @@
 		(uuid "17928c51-7738-4345-aa2a-ff359f413e2c")
 	)
 	(junction
+		(at 111.76 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d9a0c79-a857-4c79-9436-14a397e56f06")
+	)
+	(junction
 		(at 208.28 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2560,6 +2566,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "558d9066-42df-42d9-93cb-2d50590fa048")
+	)
+	(junction
+		(at 111.76 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5885efa2-0499-43c4-8b93-62357d608b46")
 	)
 	(junction
 		(at 63.5 87.63)
@@ -2598,22 +2610,10 @@
 		(uuid "8b2047a7-5df1-41c6-8160-5ba58085d8fd")
 	)
 	(junction
-		(at 24.13 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "95d8c654-1186-4700-9235-0588a9137206")
-	)
-	(junction
 		(at 158.75 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9bda02af-7718-4aeb-99ee-1487d73635b1")
-	)
-	(junction
-		(at 31.75 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9cacfb63-8463-402d-a5f0-be9e00e2bfcd")
 	)
 	(junction
 		(at 73.66 149.86)
@@ -2628,16 +2628,16 @@
 		(uuid "c0d09188-19ea-4104-a000-52e937bc8e9b")
 	)
 	(junction
-		(at 31.75 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c3721c9b-cd79-4bfe-b7ef-ac3c5d9b8716")
-	)
-	(junction
 		(at 63.5 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c69029fe-3521-46ca-b857-121e453b4873")
+	)
+	(junction
+		(at 24.13 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfa6adea-04cd-4106-b039-f0b691551432")
 	)
 	(junction
 		(at 38.1 39.37)
@@ -2739,6 +2739,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 87.63) (xy 24.13 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c00d7b4-97db-41e4-8787-6c1437670d06")
+	)
+	(wire
+		(pts
 			(xy 48.26 39.37) (xy 128.27 39.37)
 		)
 		(stroke
@@ -2756,16 +2766,6 @@
 			(type default)
 		)
 		(uuid "115dc458-89d4-40e3-9fa1-b1f29370c6b4")
-	)
-	(wire
-		(pts
-			(xy 24.13 87.63) (xy 31.75 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11a76b73-4ad4-49af-afe4-ab3537d5ef4a")
 	)
 	(wire
 		(pts
@@ -2876,16 +2876,6 @@
 			(type default)
 		)
 		(uuid "2ef74f3e-96db-4b4b-b243-0094856d6865")
-	)
-	(wire
-		(pts
-			(xy 31.75 96.52) (xy 48.26 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "326012e2-2f1c-4311-9058-ea2e8a6d4b99")
 	)
 	(wire
 		(pts
@@ -3009,16 +2999,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 87.63) (xy 31.75 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "553b5bf8-9b5a-4ba1-8e68-522f5a1d6bb8")
-	)
-	(wire
-		(pts
 			(xy 48.26 96.52) (xy 63.5 96.52)
 		)
 		(stroke
@@ -3089,6 +3069,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 87.63) (xy 24.13 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "627d614e-40d9-4f83-9e7b-35c83329782f")
+	)
+	(wire
+		(pts
 			(xy 25.4 149.86) (xy 31.75 149.86)
 		)
 		(stroke
@@ -3139,13 +3129,13 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 87.63) (xy 40.64 87.63)
+			(xy 111.76 63.5) (xy 128.27 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6dc7870d-11d2-498b-ad3c-e4c1bf1cb6b3")
+		(uuid "6fe437ff-04fd-4969-ad92-5d5a3b01d5e6")
 	)
 	(wire
 		(pts
@@ -3186,16 +3176,6 @@
 			(type default)
 		)
 		(uuid "79c529da-06d2-4005-a4d3-c8bfefe7d1bd")
-	)
-	(wire
-		(pts
-			(xy 24.13 87.63) (xy 24.13 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b72677b-566f-4f0c-b30a-0ff1a2db173a")
 	)
 	(wire
 		(pts
@@ -3359,7 +3339,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 63.5) (xy 128.27 63.5)
+			(xy 95.25 63.5) (xy 111.76 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3409,7 +3389,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 96.52) (xy 31.75 96.52)
+			(xy 24.13 96.52) (xy 48.26 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5810,6 +5790,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 111.76 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5156889-67f7-457f-acf7-c24e0b7595d0")
+		(property "Reference" "R20"
+			(at 107.442 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5.1K"
+			(at 107.442 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 113.538 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 111.76 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f525cef2-609f-4126-b529-058847fb60b1")
+		)
+		(pin "2"
+			(uuid "36f374d7-47ce-406b-8e42-1d9b26cfdba9")
+		)
+		(instances
+			(project "RPS_ATX"
+				(path "/485c2fed-5176-4ba8-b79d-ac7eddb44491"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 149.86 96.52 0)
 		(unit 1)
@@ -7247,75 +7296,6 @@
 			(project "RPS_ATX"
 				(path "/485c2fed-5176-4ba8-b79d-ac7eddb44491"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 31.75 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ec27edfc-21fc-4b65-9bad-dadf63f1d00c")
-		(property "Reference" "C17"
-			(at 35.56 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 35.56 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 32.7152 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 31.75 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e041a4ce-1e54-4dba-afd9-cebd8a1e2c47")
-		)
-		(pin "1"
-			(uuid "2e9df809-5e64-4da1-8d9e-ef412ff042b9")
-		)
-		(instances
-			(project "RPS_ATX"
-				(path "/485c2fed-5176-4ba8-b79d-ac7eddb44491"
-					(reference "C17")
 					(unit 1)
 				)
 			)

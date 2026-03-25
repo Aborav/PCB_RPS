@@ -507,10 +507,30 @@
       "version": 4
     },
     "net_colors": {
+      "+15V": "rgb(194, 0, 0)",
+      "+17.5V_ATX": "rgb(194, 0, 0)",
+      "+3.3V": "rgb(194, 0, 0)",
+      "+5V": "rgb(194, 0, 0)",
+      "+5V_ATX": "rgb(194, 0, 0)",
+      "+5V_REF": "rgb(194, 0, 0)",
+      "-5V": "rgb(194, 0, 0)",
+      "GND": "rgb(132, 132, 132)",
+      "I_2IN-": "rgb(194, 194, 0)",
+      "MCU_494_ON": "rgb(0, 194, 0)",
+      "MCU_ADC_I": "rgb(194, 194, 0)",
+      "MCU_ADC_U": "rgb(194, 194, 0)",
+      "MCU_DAC_I": "rgb(194, 194, 0)",
+      "MCU_DAC_U": "rgb(194, 194, 0)",
+      "MCU_DCH": "rgb(0, 194, 0)",
       "MCU_RST": "rgb(194, 0, 194)",
       "MCU_SWCLK": "rgb(194, 0, 194)",
       "MCU_SWDIO": "rgb(194, 0, 194)",
-      "MCU_SWO": "rgb(194, 0, 194)"
+      "MCU_SWO": "rgb(194, 0, 194)",
+      "MEAS_I+": "rgb(221, 133, 0)",
+      "Net-(U1-1IN+)": "rgb(194, 194, 0)",
+      "Net-(U1-2IN+)": "rgb(194, 194, 0)",
+      "U_1IN-": "rgb(194, 194, 0)",
+      "VOUT": "rgb(221, 133, 0)"
     },
     "netclass_assignments": null,
     "netclass_patterns": []
