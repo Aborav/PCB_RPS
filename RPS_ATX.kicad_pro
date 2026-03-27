@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -188,8 +188,15 @@
       ],
       "track_widths": [
         0.0,
+        0.1,
+        0.2,
         0.3,
-        0.5
+        0.5,
+        0.7,
+        1.0,
+        2.5,
+        3.0,
+        4.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -245,24 +252,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "power_pin_not_driven|1346200|495300|4542eaa0-197e-4dd0-837c-faa2c7c7e18f|00000000-0000-0000-0000-000000000000|/485c2fed-5176-4ba8-b79d-ac7eddb44491/422ff71a-ee59-41d3-a8e4-e6d2465802f7|/485c2fed-5176-4ba8-b79d-ac7eddb44491/422ff71a-ee59-41d3-a8e4-e6d2465802f7|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|2438400|317500|de696d21-6fad-40a8-a4dd-22bf37893dc1|00000000-0000-0000-0000-000000000000|/485c2fed-5176-4ba8-b79d-ac7eddb44491/75639b50-c04a-47dd-b6e6-c8da699a633c|/485c2fed-5176-4ba8-b79d-ac7eddb44491/75639b50-c04a-47dd-b6e6-c8da699a633c|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|2514600|444500|de696d21-6fad-40a8-a4dd-22bf37893dc1|00000000-0000-0000-0000-000000000000|/485c2fed-5176-4ba8-b79d-ac7eddb44491/75639b50-c04a-47dd-b6e6-c8da699a633c|/485c2fed-5176-4ba8-b79d-ac7eddb44491/75639b50-c04a-47dd-b6e6-c8da699a633c|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|266700|355600|c9e890a8-10eb-4813-8c09-f5e6e8fdb000|00000000-0000-0000-0000-000000000000|/485c2fed-5176-4ba8-b79d-ac7eddb44491/75639b50-c04a-47dd-b6e6-c8da699a633c|/485c2fed-5176-4ba8-b79d-ac7eddb44491/75639b50-c04a-47dd-b6e6-c8da699a633c|",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -515,13 +505,13 @@
       "version": 4
     },
     "net_colors": {
-      "+15V": "rgb(194, 0, 0)",
-      "+17.5V_ATX": "rgb(194, 0, 0)",
-      "+3.3V": "rgb(194, 0, 0)",
-      "+5V": "rgb(194, 0, 0)",
-      "+5V_ATX": "rgb(194, 0, 0)",
-      "+5V_REF": "rgb(194, 0, 0)",
-      "-5V": "rgb(194, 0, 0)",
+      "+15V": "rgb(132, 0, 0)",
+      "+17.5V_ATX": "rgb(132, 0, 0)",
+      "+3.3V": "rgb(132, 0, 0)",
+      "+5V": "rgb(132, 0, 0)",
+      "+5V_ATX": "rgb(132, 0, 0)",
+      "+5V_REF": "rgb(132, 0, 0)",
+      "-5V": "rgb(132, 0, 0)",
       "GND": "rgb(132, 132, 132)",
       "I_2IN+": "rgb(194, 194, 0)",
       "I_2IN-": "rgb(194, 194, 0)",
