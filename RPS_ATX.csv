@@ -1,0 +1,60 @@
+Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,Datasheet
+"C1,C5,C11,C12,C15,C16,C21",7,10u,,,,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,~
+"C2,C7,C28,C30",4,1u,,,,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,~
+"C3,C13,C14,C17,C19,C22,C23,C24,C25,C26,C27,C29,C31",13,100n,,,,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~
+C4,1,1n,,,,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,~
+"C6,C10",2,100uF,,,,Capacitor_SMD:CP_Elec_6.3x5.4_Nichicon,~
+C8,1,2200uF,,,,Capacitor_THT:CP_Radial_D18.0mm_P7.50mm,~
+"C9,C18",2,10n,,,,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,~
+"C32,C33",2,20p,,,,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,~
+C34,1,33n,,,,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,~
+C35,1,22n,,,,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,~
+FB2,1,FB,,,,Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder,~
+J2,1,C1,,,,Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical,~
+J3,1,C2,,,,Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical,~
+J4,1,17.5V,,,,Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical,~
+J5,1,PS_OUT-,,,,Connector_Wire:SolderWire-2sqmm_1x01_D2mm_OD3.9mm,~
+J6,1,PS_OUT+,,,,Connector_Wire:SolderWire-2sqmm_1x01_D2mm_OD3.9mm,~
+J7,1,RPS_OUT+,,,,Connector_Wire:SolderWire-4sqmm_1x01_D3mm_OD6mm,~
+J8,1,SWD,,,,Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical,~
+J9,1,RPS_OUT-,,,,Connector_Wire:SolderWire-4sqmm_1x01_D3mm_OD6mm,~
+J10,1,DISP,,,,Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical,~
+J11,1,ENC1,,,,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,~
+J12,1,ENC2,,,,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,~
+JP1,1,RST,,,,TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm,~
+L1,1,L,,,,my lib:Resistor_Shunt_L10_D3.7,~
+Q1,1,AO3400A,,,,Package_TO_SOT_SMD:SOT-23,http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf
+Q3,1,BSS138,,,,Package_TO_SOT_SMD:SOT-23,https://www.onsemi.com/pub/Collateral/BSS138-D.PDF
+R1,1,1K,,,,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,~
+"R2,R3,R7,R17,R24,R25",6,5.1K,,,,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~
+"R4,R6",2,10K 0.01%,,,,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,~
+"R5,R14",2,1.5K,,,,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,~
+"R8,R15",2,1K 0.01%,,,,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,~
+R9,1,15K,,,,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,~
+R10,1,100R,,,,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,~
+R11,1,0.01R,,,,my lib:Resistor_Shunt_L10_D3.7,~
+R12,1,510R 2W,,,,Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P5.08mm_Vertical,~
+"R13,R16,R18",3,10R,,,,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,~
+R19,1,0R,,,,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,~
+R20,1,5.1K,,,,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,~
+R23,1,10K,,,,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,~
+RV1,1,U_RV,,,,Potentiometer_THT:Potentiometer_Bourns_3299W_Vertical,~
+RV2,1,I_RV,,,,Potentiometer_THT:Potentiometer_Bourns_3299W_Vertical,~
+TP1,1,-5V,,,,TestPoint:TestPoint_Pad_D2.0mm,~
+TP2,1,+15V,,,,TestPoint:TestPoint_Pad_D2.0mm,~
+TP3,1,+5V,,,,TestPoint:TestPoint_Pad_D2.0mm,~
+TP4,1,+3.3V,,,,TestPoint:TestPoint_Pad_D2.0mm,~
+TP5,1,U_BUF,,,,TestPoint:TestPoint_Pad_D2.0mm,~
+TP6,1,I_BUF,,,,TestPoint:TestPoint_Pad_D2.0mm,~
+TP7,1,494_ON,,,,TestPoint:TestPoint_Pad_D2.0mm,~
+TP8,1,U_DAC,,,,TestPoint:TestPoint_Pad_D2.0mm,~
+TP9,1,I_DAC,,,,TestPoint:TestPoint_Pad_D2.0mm,~
+U1,1,TL494,,,,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,http://www.ti.com/lit/ds/symlink/tl494.pdf
+U2,1,AMS1117-3.3,,,,Package_TO_SOT_SMD:SOT-223-3_TabPin2,http://www.advanced-monolithic.com/pdf/ds1117.pdf
+U3,1,L7815,,,,Package_TO_SOT_SMD:TO-252-3_TabPin2,http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf
+U5,1,INA180A2,,,,Package_TO_SOT_SMD:SOT-23-5,http://www.ti.com/lit/ds/symlink/ina180.pdf
+U6,1,ICL7660,,,,Package_DIP:DIP-8_W7.62mm,http://datasheets.maximintegrated.com/en/ds/ICL7660-MAX1044.pdf
+U7,1,LM7805_TO220,,,,Package_TO_SOT_THT:TO-220-3_Vertical,https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF
+U8,1,STM32G431RBT6,,,,Package_QFP:LQFP-64_10x10mm_P0.5mm,https://www.st.com/resource/en/datasheet/stm32g431rb.pdf
+U9,1,OP07,,,,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,https://www.analog.com/media/en/technical-documentation/data-sheets/OP07.pdf
+Y1,1,8MHz,,,,Crystal:Crystal_SMD_0603-2Pin_6.0x3.5mm_HandSoldering,~
