@@ -2474,16 +2474,6 @@
 		)
 		(uuid "0c77344d-d578-407e-bd75-d3ca5c8ccceb")
 	)
-	(text "Filter:\nf(-3):31 Hz\nADC conv:60Hz"
-		(exclude_from_sim no)
-		(at 81.788 56.642 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2537dbaa-7909-4ede-a2c2-14f0f95c89ae")
-	)
 	(text "Frequency:68kHz"
 		(exclude_from_sim no)
 		(at 237.744 80.772 0)
@@ -2533,16 +2523,6 @@
 			)
 		)
 		(uuid "858ac821-82c1-4e6a-bcb7-5a256aded41b")
-	)
-	(text "Filter:\nf(-3):31 Hz\nADC conv:60Hz"
-		(exclude_from_sim no)
-		(at 88.9 165.354 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c045c838-51a2-495a-9827-da2e1139a8f1")
 	)
 	(text "Voltage feedback"
 		(exclude_from_sim no)
@@ -2735,18 +2715,6 @@
 		(uuid "c14c4aa4-3672-4b4a-9780-23f94c28e9a2")
 	)
 	(junction
-		(at 100.33 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd1fe700-e6eb-4aef-9ff0-0366a10c23f7")
-	)
-	(junction
-		(at 93.98 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e5be8e16-f4ec-461e-8774-58f58e1eee1b")
-	)
-	(junction
 		(at 251.46 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2812,26 +2780,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 52.07) (xy 93.98 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0aa5fc95-9ad1-444e-93b0-3af2255fbe4d")
-	)
-	(wire
-		(pts
-			(xy 95.25 158.75) (xy 100.33 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0dea70b4-e06e-44c5-95f0-ce1906b29fa9")
-	)
-	(wire
-		(pts
 			(xy 226.06 153.67) (xy 240.03 153.67)
 		)
 		(stroke
@@ -2892,26 +2840,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 62.23) (xy 93.98 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "209ee3bd-ebc8-4eb5-819f-447495dfc0b4")
-	)
-	(wire
-		(pts
-			(xy 100.33 168.91) (xy 100.33 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dbbb3aa-ce92-4a61-89b1-a9eacbfd7100")
-	)
-	(wire
-		(pts
 			(xy 251.46 41.91) (xy 261.62 41.91)
 		)
 		(stroke
@@ -2919,26 +2847,6 @@
 			(type default)
 		)
 		(uuid "34d6f748-b6f9-4321-b2eb-be3befe44d68")
-	)
-	(wire
-		(pts
-			(xy 93.98 52.07) (xy 109.22 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38c594aa-923c-4240-b831-8caeae0f6795")
-	)
-	(wire
-		(pts
-			(xy 82.55 147.32) (xy 82.55 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b104b75-2825-4647-981e-8017ef2a1cf9")
 	)
 	(wire
 		(pts
@@ -3019,16 +2927,6 @@
 			(type default)
 		)
 		(uuid "4c50cfdf-dee9-4bd6-9600-b18ef740995c")
-	)
-	(wire
-		(pts
-			(xy 93.98 52.07) (xy 93.98 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c9ae8d6-7186-42d7-9148-5091a26243ee")
 	)
 	(wire
 		(pts
@@ -3129,16 +3027,6 @@
 			(type default)
 		)
 		(uuid "63364537-447a-487c-a4f4-a77f852fced5")
-	)
-	(wire
-		(pts
-			(xy 82.55 158.75) (xy 87.63 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63687bb1-d671-4f9c-a87a-23910b1525c9")
 	)
 	(wire
 		(pts
@@ -3422,16 +3310,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 158.75) (xy 115.57 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9043ca07-eb29-4f86-a7dd-3929ca3f75a5")
-	)
-	(wire
-		(pts
 			(xy 30.48 149.86) (xy 30.48 151.13)
 		)
 		(stroke
@@ -3572,16 +3450,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 41.91) (xy 78.74 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a409d3fb-f6fa-41a2-b5d8-e0fdbbc916af")
-	)
-	(wire
-		(pts
 			(xy 172.72 110.49) (xy 176.53 110.49)
 		)
 		(stroke
@@ -3599,16 +3467,6 @@
 			(type default)
 		)
 		(uuid "a5f209f3-9b65-44c4-846b-d5f842528ba8")
-	)
-	(wire
-		(pts
-			(xy 100.33 158.75) (xy 100.33 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a65a817f-9226-406b-9467-f7b575a21e23")
 	)
 	(wire
 		(pts
@@ -3879,16 +3737,6 @@
 			(type default)
 		)
 		(uuid "f2465fd5-b43b-4f43-af95-907bd8727db8")
-	)
-	(wire
-		(pts
-			(xy 78.74 52.07) (xy 81.28 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3357b55-f251-46b0-83f0-0b3fc4ce3bbc")
 	)
 	(wire
 		(pts
@@ -10647,28 +10495,6 @@
 			)
 		)
 	)
-	(global_label "MCU_ADC_U"
-		(shape input)
-		(at 109.22 52.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8f480461-958d-46c9-a3a1-8d51222ef594")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.1514 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DTC"
 		(shape input)
 		(at 261.62 132.08 0)
@@ -10709,28 +10535,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MCU_ADC_I"
-		(shape input)
-		(at 115.57 158.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b6a64e94-19f8-4a8f-b81e-753094d04dcb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.7757 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -11493,72 +11297,6 @@
 			(project "RPS_ATX"
 				(path "/485c2fed-5176-4ba8-b79d-ac7eddb44491/75639b50-c04a-47dd-b6e6-c8da699a633c"
 					(reference "C35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 93.98 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2cc603ab-4336-47e2-beea-c87bbc1d9a00")
-		(property "Reference" "#PWR024"
-			(at 93.98 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 93.98 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f3278ab4-5cf8-4a4a-9342-8cdb28bd3fcc")
-		)
-		(instances
-			(project "RPS_ATX"
-				(path "/485c2fed-5176-4ba8-b79d-ac7eddb44491/75639b50-c04a-47dd-b6e6-c8da699a633c"
-					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -12507,76 +12245,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 93.98 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "48e75e19-5175-44b9-9d3e-642d65512b71")
-		(property "Reference" "C2"
-			(at 97.79 57.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 97.79 59.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 94.9452 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.98 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 93.98 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9cad74cf-16a1-432c-82d2-349b3f93a663")
-		)
-		(pin "1"
-			(uuid "230db5a4-2c42-4834-910c-7925d5074612")
-		)
-		(instances
-			(project "RPS_ATX"
-				(path "/485c2fed-5176-4ba8-b79d-ac7eddb44491/75639b50-c04a-47dd-b6e6-c8da699a633c"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 209.55 77.47 0)
 		(unit 1)
@@ -13215,72 +12883,6 @@
 			(project "RPS_ATX"
 				(path "/485c2fed-5176-4ba8-b79d-ac7eddb44491/75639b50-c04a-47dd-b6e6-c8da699a633c"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 100.33 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "768b6141-7eee-4304-83e6-504c6f5bd773")
-		(property "Reference" "#PWR017"
-			(at 100.33 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 100.33 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fc9d8169-38e5-494f-be92-e67aa104d12a")
-		)
-		(instances
-			(project "RPS_ATX"
-				(path "/485c2fed-5176-4ba8-b79d-ac7eddb44491/75639b50-c04a-47dd-b6e6-c8da699a633c"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -14386,74 +13988,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 85.09 52.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c28ae057-31c9-4faa-af81-624f2723b45f")
-		(property "Reference" "R17"
-			(at 85.09 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1K"
-			(at 85.09 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 85.09 53.848 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 85.09 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6987ad83-d388-421c-9718-99876547aea0")
-		)
-		(pin "2"
-			(uuid "baac64a0-fcf0-46ce-90b9-67c5015083f2")
-		)
-		(instances
-			(project "RPS_ATX"
-				(path "/485c2fed-5176-4ba8-b79d-ac7eddb44491/75639b50-c04a-47dd-b6e6-c8da699a633c"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint_Probe")
 		(at 140.97 96.52 0)
 		(unit 1)
@@ -14712,74 +14246,6 @@
 			(project "RPS_ATX"
 				(path "/485c2fed-5176-4ba8-b79d-ac7eddb44491/75639b50-c04a-47dd-b6e6-c8da699a633c"
 					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 91.44 158.75 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d71746e2-9572-4aae-8d06-f604049612e0")
-		(property "Reference" "R2"
-			(at 91.44 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1K"
-			(at 91.44 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 91.44 160.528 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 91.44 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4e4fe8f9-f4e7-4bb4-8e1e-4626a83f5e53")
-		)
-		(pin "2"
-			(uuid "7d902003-3548-49c7-9b55-2dfbb2cb95ca")
-		)
-		(instances
-			(project "RPS_ATX"
-				(path "/485c2fed-5176-4ba8-b79d-ac7eddb44491/75639b50-c04a-47dd-b6e6-c8da699a633c"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -15046,76 +14512,6 @@
 			(project "RPS_ATX"
 				(path "/485c2fed-5176-4ba8-b79d-ac7eddb44491/75639b50-c04a-47dd-b6e6-c8da699a633c"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 100.33 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eaca1167-96b9-4020-ac67-1bb39fa9427d")
-		(property "Reference" "C7"
-			(at 104.14 163.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 104.14 166.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 101.2952 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 100.33 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4167c8e7-f62c-4744-a321-54541db10349")
-		)
-		(pin "1"
-			(uuid "821e177d-e702-4736-88c1-0563bf6137d7")
-		)
-		(instances
-			(project "RPS_ATX"
-				(path "/485c2fed-5176-4ba8-b79d-ac7eddb44491/75639b50-c04a-47dd-b6e6-c8da699a633c"
-					(reference "C7")
 					(unit 1)
 				)
 			)
