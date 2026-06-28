@@ -3116,6 +3116,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 83.82) (xy 87.63 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ed6a379-a692-47eb-9041-fbadaa6b676d")
+	)
+	(wire
+		(pts
 			(xy 92.71 27.94) (xy 114.3 27.94)
 		)
 		(stroke
@@ -12701,28 +12711,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "7af0e1c1-e670-4945-9d9b-02607049489c")
+			(uuid "7af0e1c1-e670-4945-9d9b-02607049489d")
 		)
 		(pin "2"
-			(uuid "0649b0c8-77fa-4db8-be1b-adfd0d82487a")
+			(uuid "0649b0c8-77fa-4db8-be1b-adfd0d82487b")
 		)
 		(pin "3"
-			(uuid "7493b009-e122-44de-aaec-841c669e4ce6")
+			(uuid "7493b009-e122-44de-aaec-841c669e4ce7")
 		)
 		(pin "8"
-			(uuid "bacdb31c-53b1-4d0e-97c8-8389a7f7364c")
+			(uuid "bacdb31c-53b1-4d0e-97c8-8389a7f7364d")
 		)
 		(pin "7"
-			(uuid "9e5cf2eb-228c-4b2f-bc04-247b5e5b2bd7")
+			(uuid "9e5cf2eb-228c-4b2f-bc04-247b5e5b2bd8")
 		)
 		(pin "6"
-			(uuid "d66e7c26-e2af-4a9d-8834-e4c28951ca8b")
+			(uuid "d66e7c26-e2af-4a9d-8834-e4c28951ca8c")
 		)
 		(pin "5"
-			(uuid "1117880b-93aa-4105-822c-53da319f2268")
+			(uuid "1117880b-93aa-4105-822c-53da319f2269")
 		)
 		(pin "4"
-			(uuid "708a6501-88f4-4dec-a5b7-6e43580793ae")
+			(uuid "708a6501-88f4-4dec-a5b7-6e43580793af")
 		)
 		(instances
 			(project "RPS_ATX"
@@ -13381,7 +13391,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 87.63 83.82 0)
+		(at 88.9 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13390,7 +13400,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f143794-6837-4d72-9315-25505cb609fe")
 		(property "Reference" "#PWR042"
-			(at 87.63 90.17 0)
+			(at 88.9 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13399,7 +13409,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.63 88.9 0)
+			(at 88.9 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13407,7 +13417,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 83.82 0)
+			(at 88.9 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13416,7 +13426,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 83.82 0)
+			(at 88.9 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13425,7 +13435,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 83.82 0)
+			(at 88.9 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)

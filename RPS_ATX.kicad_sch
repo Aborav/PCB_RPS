@@ -3232,7 +3232,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 39.37) (xy 142.24 39.37)
+			(xy 99.06 39.37) (xy 147.32 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3249,16 +3249,6 @@
 			(type default)
 		)
 		(uuid "0269b1ae-865c-4e80-884f-07ecae405322")
-	)
-	(wire
-		(pts
-			(xy 142.24 39.37) (xy 142.24 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03d9d62f-5f1d-44a1-b807-05ace0b9d1fe")
 	)
 	(wire
 		(pts
@@ -4242,16 +4232,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 46.99) (xy 147.32 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdd5b137-91bc-4ebf-9e7b-d5d0803edb17")
-	)
-	(wire
-		(pts
 			(xy 129.54 92.71) (xy 133.35 92.71)
 		)
 		(stroke
@@ -5092,7 +5072,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fan_out"
+		(property "Value" "FAN_OUT"
 			(at 271.78 95.2499 0)
 			(effects
 				(font
@@ -6958,7 +6938,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 152.4 46.99 180)
+		(at 152.4 39.37 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6966,7 +6946,7 @@
 		(dnp no)
 		(uuid "9ed577d9-b51a-4758-87cb-79359abd4e33")
 		(property "Reference" "J9"
-			(at 152.4 48.26 0)
+			(at 152.654 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6974,7 +6954,7 @@
 			)
 		)
 		(property "Value" "RPS_OUT+"
-			(at 160.02 47.244 0)
+			(at 159.512 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6982,7 +6962,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-2sqmm_1x01_D2mm_OD3.9mm"
-			(at 152.4 46.99 0)
+			(at 152.4 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6991,7 +6971,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 46.99 0)
+			(at 152.4 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7000,7 +6980,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 152.4 46.99 0)
+			(at 152.4 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
